@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column; 
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    display: none; 
+  }
+}
+
+#root {
+  transform: scale(0.9); 
+  transform-origin: top left; 
+  width: 111.11%; 
+  height: 111.11%; 
+}
+#hero-image {
+  transform: scale(1.1111)
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
