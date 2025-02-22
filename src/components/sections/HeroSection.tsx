@@ -5,7 +5,7 @@ import Contact from "@/components/added/contact"
 export default function Hero({ id }: { id: string }) {
   return (
     <section id={id} className="  max-w-screen-xl mx-auto relative w-full mb-60">
-      {/* Full-width image */}
+     
       <div className="relative w-full h-auto">
       <Image
        id="hero-image"
@@ -25,3 +25,5 @@ export default function Hero({ id }: { id: string }) {
     </section>
   );
 }
+
+
